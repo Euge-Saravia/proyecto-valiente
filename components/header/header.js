@@ -14,11 +14,25 @@ export default function Header() {
       <div className={styles.topline}>
         <p>DISEÑO DE COMUNICACIÓN VISUAL</p>
       </div>
-      <h1 className={styles.header}>This is a Header</h1>
-      <p>lorem impsum</p>
       <div className={styles.logovaliente}>
-        <Image src="/images/Logo Fluir.png" alt="Logo Fluir" width={500} height={500} />
+        <Image src="/images/logo-06.png" alt="Logo Estudio Valiente" width={1000} height={500} />
       </div>
+        <div className={styles.menu}>
+         <ul>
+             <li className={styles.quienessomos}>
+                 <a href="#">QUIÉNES SOMOS</a>
+             </li>
+             <li className={styles.servicios}>
+                <a href="#">SERVICIOS</a>
+            </li>
+            <li className={styles.portfolio}>
+                <a href="#">PORTFOLIO</a>
+            </li>
+            <li className={styles.contacto}>
+                <a href="#">CONTACTO</a>
+            </li>
+         </ul>
+        </div>
     </>
   );
 }

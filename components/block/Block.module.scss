@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.imgpresentacion{
+    background-image: url("/images/pagina-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
+    img{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.imgpresentacion{
+    p{
+        width: calc(50% - 80px);
+        padding-left: 80px;
+        font-size: 25px;
+        font-family: releway-extralight;
+    }
+    span{
+        font-weight: bold;
+    }
+   
+}
+

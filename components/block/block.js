@@ -11,7 +11,9 @@ import styles from "./Block.module.scss";
 export default function Block() {
   return (
     <>
-      <p>this is a block</p>
+      <div className={styles.imgpresentacion}>
+        <p><span>UNA IDEA</span> PENSADA Y RE PENSADA, UNA Y MIL VECES</p>
+    </div>
     </>
   );
 }

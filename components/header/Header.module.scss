@@ -1,15 +1,15 @@
 @import "../../styles/variables";
 
-.header {
-  color: $color-red;
-}
-
 .topline {
-  background-color: #aa998a;
+  background-color: $color-five;
 
   p {
-    background-color: red;
     font-family: releway-regular;
+    font-size: 20px;
+    text-align: center;
+    color: $color-basic1;
+    padding: 20px;
+    margin: 0;
   }
 }
 
@@ -17,8 +17,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
-  img{
-    max-width: 500px;
+.menu{
+  a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: releway-extralight;
+    color: $color-basic2;
+    padding: 20px 5px;
+    flex-basis: 100%;
   }
+  ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  li{
+    flex: 1;
+    height: 160px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    max-width: calc(25% - 15px);
+    animation-name: menuanimation;
+    &:hover {
+      transform: scaleY(2);
+      transition-duration: 0.3s;
+      a {
+        transform: scaleY(.5);
+        transition-duration: 0s;
+      }
+
+    }
+    transform-origin: bottom;
+    
+  }
+  }
+  
+.quienessomos{
+  background-color: $color-second;
+}
+
+.servicios{
+  background-color: $color-first;
+}
+
+.portfolio{
+  background-color: $color-second;
+}
+
+.contacto{
+  background-color: $color-four;
 }
