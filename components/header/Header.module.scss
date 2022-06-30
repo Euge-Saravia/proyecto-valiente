@@ -44,8 +44,8 @@
     max-width: calc(25% - 15px);
     animation-name: menuanimation;
     &:hover {
-      transform: scaleY(2);
-      transition-duration: 0.3s;
+      transform: scaleY(4);
+      transition-duration: 3s;
       a {
         transform: scaleY(.5);
         transition-duration: 0s;
