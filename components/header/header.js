@@ -7,31 +7,32 @@
 
 import Image from "next/image";
 import styles from "./Header.module.scss";
+import cx from "classnames";
 
 export default function Header() {
   return (
     <>
-      <div className={styles.topline}>
+        <div>
+        <div className={styles.topline}>
         <p>DISEÑO DE COMUNICACIÓN VISUAL</p>
       </div>
-      <div className={styles.logovaliente}>
-        <Image src="/images/logo-06.png" alt="Logo Estudio Valiente" width={1000} height={500} />
+      <div className={styles.container}>
+        <div className={styles.logovaliente}>
+        <Image src="/images/logo-06.png" alt="Logo Estudio Valiente" width={800} height={400} />
+        </div>
+        <div className={cx(styles.service, styles.quienessomos)}>
+        <a href="#">QUIÉNES SOMOS</a>
+        </div>
+        <div className={cx(styles.service, styles.servicios)}>
+        <a href="#">SERVICIOS</a>
+        </div>
+        <div className={cx(styles.service, styles.portfolio)}>
+        <a href="#">PORTFOLIO</a>
+        </div>
+        <div className={cx(styles.service, styles.contacto)}>
+        <a href="#">CONTACTO</a>
+        </div>
       </div>
-        <div className={styles.menu}>
-         <ul>
-             <li className={styles.quienessomos}>
-                 <a href="#">QUIÉNES SOMOS</a>
-             </li>
-             <li className={styles.servicios}>
-                <a href="#">SERVICIOS</a>
-            </li>
-            <li className={styles.portfolio}>
-                <a href="#">PORTFOLIO</a>
-            </li>
-            <li className={styles.contacto}>
-                <a href="#">CONTACTO</a>
-            </li>
-         </ul>
         </div>
     </>
   );
