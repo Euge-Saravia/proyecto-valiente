@@ -3,7 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Header from "../components/header/header"
-import Block from "../components/block/block"
+import BlockImg from "../components/BlockImg/BlockImg"
+import BlockPresentation from "../components/blockPresentation/blockPresentation"
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Header />
-    <Block />
+    <BlockImg />
+    <BlockPresentation />
     </>
   )
 }

@@ -8,12 +8,18 @@
 import Image from "next/image";
 import styles from "./Block.module.scss";
 
-export default function Block() {
+export default function BlockImg() {
   return (
     <>
-      <div className={styles.imgpresentacion}>
-        <p><span>UNA IDEA</span> PENSADA Y RE PENSADA, UNA Y MIL VECES</p>
-    </div>
+      <div className={styles.fotojulia}>
+        <Image
+          src="/images/pagina-06.png"
+          alt="Logo Estudio Valiente"
+          width={800}
+          height={1000}
+        />
+      </div>
+      
     </>
   );
 }

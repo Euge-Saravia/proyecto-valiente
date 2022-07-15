@@ -2,43 +2,65 @@
 
 .topline {
   background-color: $color-five;
+  height: 1.5rem;
+  padding: 1.5rem;
+  // p {
+  //   display: none;
 
-  p {
-    font-family: releway-regular;
-    font-size: 1.25rem;
-    text-align: center;
-    color: $color-basic1;
-    padding: 1.25rem;
-    margin: 0;
-  }
+  //   @media screen and (min-width: $size-desktop){
+  //   font-family: releway-regular;
+  //   font-size: 1.25rem;
+  //   text-align: center;
+  //   color: $color-basic1;
+  //   padding: 1.25rem;
+  //   margin: 0;
+  //   display: block;
+  //   }
+
+  // }
 }
 
 .container {
-  position: relative;
-  height: calc(100vh - 4rem);
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+
+  @media screen and (min-width: $size-desktop) {
+    position: relative;
+    height: calc(100vh - 4rem);
+    display: flex;
+    align-items: flex-end;
+    // margin-top: 1rem;
+  }
 
   .logovaliente {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+    width: 14rem;
+
+    @media screen and (min-width: $size-desktop) {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      width: auto;
+    }
   }
 
   .service {
-    width: 25%;
-    text-align: center;
-    font-family: releway-extralight;
-    height: 10rem;
-    font-size: 1.5625rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 4.21875rem;
+    display: none;
+
+    @media screen and (min-width: $size-desktop) {
+      display: flex;
+      width: 25%;
+      text-align: center;
+      font-family: releway-extralight;
+      height: 10rem;
+      font-size: 1.5625rem;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 4.21875rem;
+    }
 
     &:hover {
       height: 96%;
@@ -65,4 +87,3 @@
     background-color: $color-four;
   }
 }
-
