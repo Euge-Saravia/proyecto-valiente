@@ -12,13 +12,20 @@ export default function BlockPresentation() {
   return (
     <>
       <div className={styles.text}>
-       <h1>Soy Julia Valiente<span>Diseñadora</span></h1>
-       <p>Desde chica, siempre me atrajo el arte en todas sus formas.
-        Diseñar, pintar, escribir, bailar, cantar...
-        Estudio Valiente es un sueño que transporté a la realidad.
-        <br></br>
-        
-       </p>
+        <h1>
+          Soy Julia Valiente<span>Diseñadora</span>
+        </h1>
+        <p>
+          Desde chica, siempre me atrajo el arte en todas sus formas. Diseñar,
+          pintar, escribir, bailar, cantar... 
+          <br></br>
+          Estudio Valiente es un sueño que transporté a la realidad.
+          <br></br>
+          <br></br>
+          Cuando idee este proyecto lo vi completamente inviable, así que lo
+          tome como algo complementario a mis actividades cotidianas que habian
+          sido afectadas por la famosa pandemia.
+        </p>
       </div>
     </>
   );
