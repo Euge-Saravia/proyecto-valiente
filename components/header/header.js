@@ -19,7 +19,7 @@ export default function Header() {
         <div className={styles.container}>
           <div className={styles.logovaliente}>
             <Image
-              src="/images/logo-06.png"
+              src="/images/logo-negro-desktop.png"
               alt="Logo Estudio Valiente"
               width={800}
               height={400}

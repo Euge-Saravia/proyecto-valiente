@@ -12,9 +12,11 @@ export default function BlockPresentation() {
   return (
     <>
       <div className={styles.text}>
-        <h1>
-          Soy Julia Valiente<span>Diseñadora</span>
-        </h1>
+      <Image className={styles.title}
+              src="/images/soy-julia-valiente.png"
+              alt="Titulo Soy Julia Valiente"
+              width={450} height={150}
+            />
         <p>
           Desde chica, siempre me atrajo el arte en todas sus formas. Diseñar,
           pintar, escribir, bailar, cantar... 
