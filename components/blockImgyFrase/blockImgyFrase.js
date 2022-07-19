@@ -6,18 +6,17 @@
 // * class no se usa, se usa className
 
 import Image from "next/image";
-import styles from "./Block.module.scss";
+import styles from "./blockImgyFrase.module.scss";
 
-export default function BlockImg() {
+export default function blockImgyFrase() {
   return (
     <>
-      <div className={styles.fotojulia}>
-        <Image
-          className={styles.blockImg}
-          src="/images/fotojulia-soñadora.png"
-          alt="Logo Estudio Valiente"
-          width={414}
-          height={486}
+      <div>
+      <Image
+          src="/images/fondogris-confoto-julia.png"
+          alt="Fondo gris con frase"
+          width={420}
+          height={220}
           layout="responsive"
         />
       </div>

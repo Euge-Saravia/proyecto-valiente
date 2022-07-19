@@ -13,16 +13,14 @@ export default function Header() {
   return (
     <>
       <div>
-        <div className={styles.topline}>
-          {/* <p>DISEÑO DE COMUNICACIÓN VISUAL</p> */}
-        </div>
         <div className={styles.container}>
           <div className={styles.logovaliente}>
             <Image
               src="/images/logo-negro-desktop.png"
               alt="Logo Estudio Valiente"
-              width={800}
-              height={400}
+              width={414}
+              height={150}
+              layout="responsive"
             />
           </div>
           <div className={cx(styles.service, styles.quienessomos)}>

@@ -12,21 +12,32 @@ export default function BlockPresentation() {
   return (
     <>
       <div className={styles.text}>
-      <Image className={styles.title}
-              src="/images/soy-julia-valiente.png"
-              alt="Titulo Soy Julia Valiente"
-              width={450} height={150}
-            />
+        <Image
+          className={styles.title}
+          src="/images/soy-julia-valiente.png"
+          alt="Titulo Soy Julia Valiente"
+          width={250}
+          height={75}
+        />
         <p>
           Desde chica, siempre me atrajo el arte en todas sus formas. Diseñar,
-          pintar, escribir, bailar, cantar... 
+          pintar, escribir, bailar, cantar...
           <br></br>
           Estudio Valiente es un sueño que transporté a la realidad.
           <br></br>
           <br></br>
-          Cuando idee este proyecto lo vi completamente inviable, así que lo
-          tome como algo complementario a mis actividades cotidianas que habian
+          Cuando idee este proyecto lo vi completamente inviable, así que lo tome
+          como algo complementario a mis actividades cotidianas que habian
           sido afectadas por la famosa pandemia.
+          <br></br>
+          <br></br>
+          Creo fuertemente que lo que creamos con entuciasmo y corazón, funciona
+          de manera orgánica y hermosa.Hoy este proyecto individual se tranformo
+          en un equipo de trabajo increible que cuenta con clientes felices y
+          agradecidos.
+          <br></br>
+          <br></br>
+          Realmente espero que este sea solo el comienzo.
         </p>
       </div>
     </>
