@@ -13,7 +13,7 @@ export default function blockImgyFrase() {
     <>
       <div>
       <Image
-          src="/images/fondogris-confoto-julia.png"
+          src="/images/fondogris-confoto.png"
           alt="Fondo gris con frase"
           width={420}
           height={220}
