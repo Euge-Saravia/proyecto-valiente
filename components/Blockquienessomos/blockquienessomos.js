@@ -22,7 +22,7 @@ export default function Blockquienessomos() {
           ayudarte a darle todo lo que necesite.
           <br></br>
           <br></br>
-          <strong>Todo lo que es imagen nos encanta!</strong>Sabemos que aparte de un buen
+          <strong>Todo lo que es imagen nos encanta! </strong>Sabemos que aparte de un buen
           producto, necesitamos una buena presentación.
           <br></br>
           <br></br>
@@ -32,7 +32,7 @@ export default function Blockquienessomos() {
           <br></br>
           No es nada nuevo decir que <strong>todo se mueve en las redes</strong> más rapido que
           en la realidad... Pensar en redes sociales ya era importante, pero
-          <strong>ahora? Adaptarnos a la nueva realidad</strong> es asumir que nuestro mundo se
+          <strong> ahora? Adaptarnos a la nueva realidad </strong>es asumir que nuestro mundo se
           desempeña más en el ciberespacio que en cualquier otro ambito...
           <br></br>
           <br></br>
@@ -40,7 +40,7 @@ export default function Blockquienessomos() {
           las redes acorde a tus necesidades.</strong>
           <br></br>
           <br></br>
-          <strong>Te ayudamos a potenciar tu negocio, tu emprendimiento o tu servicio</strong>
+          <strong>Te ayudamos a potenciar tu negocio, tu emprendimiento o tu servicio </strong>
           para que llegue de manera efectiva a tus clientes...
           <br></br>
           <br></br>

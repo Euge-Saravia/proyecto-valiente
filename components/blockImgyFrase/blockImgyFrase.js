@@ -11,8 +11,13 @@ import styles from "./blockImgyFrase.module.scss";
 export default function blockImgyFrase() {
   return (
     <>
-      <div>
-      <Image
+      <div className={styles.imagecontainer}>
+        <p className={styles.frase}>
+          <strong>UNA IDEA</strong> PENSADA Y RE PENSADA, 
+          <br></br>
+          UNA Y MIL VECES.
+        </p>
+        <Image
           src="/images/fondogris-confoto.png"
           alt="Fondo gris con frase"
           width={420}
