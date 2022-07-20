@@ -6,6 +6,7 @@ import Header from "../components/header/header";
 import BlockImg from "../components/BlockImg/BlockImg";
 import BlockPresentation from "../components/blockPresentation/blockPresentation";
 import BlockImgyFrase from "../components/blockImgyFrase/blockImgyFrase";
+import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos"
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <BlockImg />
         <BlockPresentation />
         <BlockImgyFrase />
+        <Blockquienessomos />
       </div>
     </>
   );

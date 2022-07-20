@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.titlequienessomos{
+    text-align: center;
+    font-family: abril-fatface;
+    font-size: 2rem;
+}
+
+.contentquienessomos{
+    background-color: $color-first;
+
+    .textquienessomos{
+        margin-top: 1rem;
+        font-size: 0.75rem;
+        text-align: justify;
+        column-count: 2;
+        column-gap: 1.5rem;
+        padding: 2rem 1rem;
+    }
+}

@@ -22,6 +22,21 @@
   src: url(/fonts/RALEWAY/Raleway-ExtraLight.ttf);
 }
 
+@font-face {
+  font-family: releway-light;
+  src: url(/fonts/RALEWAY/releway-light.ttf);
+}
+
+@font-face{
+  font-family: releway-lightitalic;
+  src: url(/fonts/RALEWAY/Releway-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: releway-bold;
+  src: url(/fonts/RALEWAY/Raleway-Bold.ttf);
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -37,4 +52,12 @@ body{
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p{
+  font-family: releway-regular;
+}
+
+strong{
+  font-family: releway-bold;
 }

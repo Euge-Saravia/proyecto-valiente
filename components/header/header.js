@@ -15,7 +15,7 @@ export default function Header() {
       <div>
         <div className={styles.container}>
           <div className={styles.logovaliente}>
-            <Image
+            <Image 
               src="/images/logo-negro-desktop.png"
               alt="Logo Estudio Valiente"
               width={414}
