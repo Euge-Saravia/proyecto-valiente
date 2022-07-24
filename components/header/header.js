@@ -5,22 +5,45 @@
 //   al mismo nivel se puede usar <></> vacio.
 // * class no se usa, se usa className
 
+import { useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import cx from "classnames";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div>
         <div className={styles.container}>
           <div className={styles.logovaliente}>
-            <Image 
+            <Image
               src="/images/logo-negro-desktop.png"
               alt="Logo Estudio Valiente"
               width={414}
               height={150}
               layout="responsive"
+            />
+          </div>
+          <div className={cx(styles.menuhamb, { [styles.open]: isOpen })}>
+            <Image
+              src="/images/menuhamb-marron.png"
+              alt="Logo Estudio Valiente"
+              width={86}
+              height={63}
+              layout="responsive"
+              className={cx(styles.icon, styles.active)}
+              onClick={() => setIsOpen(!isOpen)}
+            />
+            <Image
+              src="/images/menuhamb-blanco.png"
+              alt="Logo Estudio Valiente"
+              width={86}
+              height={63}
+              layout="responsive"
+              className={styles.icon}
+              onClick={() => setIsOpen(!isOpen)}
             />
           </div>
           <div className={cx(styles.service, styles.quienessomos)}>

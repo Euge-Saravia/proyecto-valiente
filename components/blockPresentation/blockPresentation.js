@@ -11,15 +11,15 @@ import styles from "./blockpresentation.module.scss";
 export default function BlockPresentation() {
   return (
     <>
-      <div className={styles.text}>
+      <div className={styles.textcontainer}>
         <Image
-          className={styles.title}
+          className={styles.imagetitle}
           src="/images/soy-julia-valiente.png"
           alt="Titulo Soy Julia Valiente"
           width={250}
           height={75}
         />
-        <p>
+        <p className={styles.soyjulia}>
           Desde chica, siempre me atrajo el arte en todas sus formas. Diseñar,
           pintar, escribir, bailar, cantar...
           <br></br>

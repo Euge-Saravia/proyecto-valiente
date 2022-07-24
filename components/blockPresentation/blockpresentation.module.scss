@@ -1,7 +1,13 @@
 @import "../../styles/variables";
 
-.text{
-    margin-top: 0.3rem;
+.textcontainer {
     text-align: center;
-    font-family: releway-extralight;
+
+    .imagetitle {
+        margin-top: 0.3rem;
+    }
+
+    .soyjulia {
+        margin-top: 0;
+    }
 }

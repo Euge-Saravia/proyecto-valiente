@@ -5,6 +5,7 @@
 .container {
   display: flex;
   justify-content: center;
+  position: relative;
 
   @media screen and (min-width: $size-desktop) {
     position: relative;
@@ -29,13 +30,33 @@
     }
   }
 
+  .menuhamb {
+    position: absolute;
+    // top: 2rem;
+    left: 0;
+    width: 3rem;
+    bottom: 0; // TODO: Remove this line when the logic is in place
+
+    .icon {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+    }
+
+    &.open {
+      background-color: black;
+    }
+  }
+
   .menuhamburguesa {
     float: right;
     margin-top: 24px;
     margin-right: 20px;
   }
 
-  .hamburguesablanco{
+  .hamburguesablanco {
     display: none;
   }
 
