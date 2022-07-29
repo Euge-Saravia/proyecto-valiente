@@ -6,7 +6,8 @@ import Header from "../components/header/header";
 import BlockImg from "../components/BlockImg/BlockImg";
 import BlockPresentation from "../components/blockPresentation/blockPresentation";
 import BlockImgyFrase from "../components/blockImgyFrase/blockImgyFrase";
-import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos"
+import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos";
+import BlockNuestrosServicios from "../components/BlockNuestrosServicios/blocknuestrosservicios";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         <BlockPresentation />
         <BlockImgyFrase />
         <Blockquienessomos />
+        <BlockNuestrosServicios />
       </div>
     </>
   );
