@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+
+.titleportfolio{
+    text-align: center;
+    font-family: abril-fatface;
+    font-size: 1.5rem;
+}
+
+.containerportfolio{
+    background-color: $color-second;
+    h3{
+        padding-top: 1rem;
+        font-size: 1.1rem;
+        font-family: releway-regular;
+        text-align: center;
+
+        span{
+            font-family: assinatura;
+        }
+    }
+    p{
+        padding: 0 0.5rem 0 1rem;
+    }
+}
+
+.clientesimages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

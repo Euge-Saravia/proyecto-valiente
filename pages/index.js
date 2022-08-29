@@ -8,6 +8,9 @@ import BlockPresentation from "../components/blockPresentation/blockPresentation
 import BlockImgyFrase from "../components/blockImgyFrase/blockImgyFrase";
 import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos";
 import BlockNuestrosServicios from "../components/BlockNuestrosServicios/blocknuestrosservicios";
+import BlockPortfolio from "../components/BlockPortfolio/blockportfolio";
+import BlockImgCierre from "../components/BlockImgCierre/blockimgcierre";
+
 
 export default function Home() {
   return (
@@ -34,6 +37,8 @@ export default function Home() {
         <BlockImgyFrase />
         <Blockquienessomos />
         <BlockNuestrosServicios />
+        <BlockPortfolio />
+        <BlockImgCierre />
       </div>
     </>
   );
