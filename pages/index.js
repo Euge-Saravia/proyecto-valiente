@@ -10,7 +10,7 @@ import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos
 import BlockNuestrosServicios from "../components/BlockNuestrosServicios/blocknuestrosservicios";
 import BlockPortfolio from "../components/BlockPortfolio/blockportfolio";
 import BlockImgCierre from "../components/BlockImgCierre/blockimgcierre";
-
+import BlockFooter from "../components/BlockFooter/blockfooter";
 
 export default function Home() {
   return (
@@ -21,15 +21,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topline}>
-        <Image 
-              src="/images/barra-encabezado.png"
-              alt="Linea decorativa"
-              width={414}
-              height={50}
-              layout="responsive"
-              className={styles.image}
-            />
-        </div>
+        <Image
+          src="/images/barra-encabezado.png"
+          alt="Linea decorativa"
+          width={414}
+          height={50}
+          layout="responsive"
+          className={styles.image}
+        />
+      </div>
       <div className={styles.container}>
         <Header />
         <BlockImg />
@@ -40,6 +40,7 @@ export default function Home() {
         <BlockPortfolio />
         <BlockImgCierre />
       </div>
+      <BlockFooter />
     </>
   );
 }

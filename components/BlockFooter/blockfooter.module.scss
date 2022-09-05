@@ -1,0 +1,54 @@
+@import "../../styles/variables";
+
+.contacto {
+    text-align: center;
+    font-family: abril-fatface;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.iconoscontacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    a {
+        border: none;
+        color: $color-basic1;
+        background-color: $color-four;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+
+        span {
+            font-weight: 900;
+        }
+    }
+}
+
+.seguinosinstagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactowhatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.containerfooter {
+    margin-top: 1rem;
+    background-image: url("/images/barra-pie-de-pagina.png");
+
+    .logovalientewhite {
+        display: flex;
+        justify-content: center;
+        padding: 0.8rem 1.625rem;
+
+        img {
+            padding: 0.8rem 1.625rem !important;
+        }
+    }
+}

@@ -1,11 +1,10 @@
 @import "../../styles/variables";
 
-
-
 .container {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 
   @media screen and (min-width: $size-desktop) {
     position: relative;
@@ -31,11 +30,13 @@
   }
 
   .menuhamb {
+    // height: 63px;
+    // width: 86px;
     position: absolute;
-    // top: 2rem;
+    top: 1.75rem;
     left: 0;
     width: 3rem;
-    bottom: 0; // TODO: Remove this line when the logic is in place
+    // bottom: 0; // TODO: Remove this line when the logic is in place
 
     .icon {
       display: none;
@@ -47,6 +48,40 @@
 
     &.open {
       background-color: black;
+    }
+
+    @media screen and (min-width: $size-desktop) {
+      display: none;
+    }
+  }
+
+  .mobilemenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    background-color: white;
+    color: $color-five;
+    font-size: 0.75rem;
+    font-family: releway-extralight;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    height: calc(100vh - 5rem);
+
+    .service {
+      display: flex;
+      text-transform: uppercase;
+      font-size: 2rem;
+      border-bottom: 3px solid;
+      margin: 1rem;
+      padding: 1rem;
+
+      &:last-child {
+        border-bottom: 0 none;
+      }
     }
   }
 

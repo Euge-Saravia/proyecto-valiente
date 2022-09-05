@@ -12,14 +12,14 @@ import cx from "classnames";
 export default function blockimgcierre() {
   return (
     <>
-     <div className={styles.imgcierre}>
-     <Image
-            src="/images/pagina-final-bordeaux.png"
-            alt="Logo cliente"
-            width={382}
-            height={150}
-          />
-     </div>
+      <div className={styles.imgcierre}>
+        <Image
+          src="/images/pagina-final-bordeaux.png"
+          alt="Logo cliente"
+          width={382}
+          height={150}
+        />
+      </div>
     </>
   );
 }
