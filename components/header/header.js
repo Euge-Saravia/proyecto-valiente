@@ -5,13 +5,19 @@
 //   al mismo nivel se puede usar <></> vacio.
 // * class no se usa, se usa className
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import cx from "classnames";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    isOpen
+      ? document.body.classList.add("menu-open")
+      : document.body.classList.remove("menu-open");
+  }, [isOpen]);
 
   return (
     <>

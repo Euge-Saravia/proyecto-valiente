@@ -2,22 +2,23 @@
   font-family: abril-fatface;
   src: url(/fonts/ABRIL/AbrilFatface-Regular.otf);
 }
-@font-face{
+
+@font-face {
   font-family: abril-fatface1;
   src: url(/fonts/ABRIL/AbrilFatface-Regular.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: assinatura;
   src: url(/fonts/ASSINATURA.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: releway-regular;
   src: url(/fonts/RALEWAY/Raleway-Regular.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: releway-extralight;
   src: url(/fonts/RALEWAY/Raleway-ExtraLight.ttf);
 }
@@ -27,7 +28,7 @@
   src: url(/fonts/RALEWAY/releway-light.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: releway-lightitalic;
   src: url(/fonts/RALEWAY/Releway-LightItalic.ttf);
 }
@@ -42,12 +43,13 @@
   src: url(/fonts/RALEWAY/Raleway-Medium.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: raleway-thin;
   src: url(/fonts/RALEWAY/Raleway-Thin.ttf);
 }
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -55,8 +57,12 @@ html, body {
   font-size: 16px;
 }
 
-body{
+body {
   background-image: url("/images/fondo.jpg");
+
+  &.menu-open {
+    overflow-y: hidden;
+  }
 }
 
 a {
@@ -64,10 +70,10 @@ a {
   text-decoration: none;
 }
 
-p{
+p {
   font-family: releway-regular;
 }
 
-strong{
+strong {
   font-family: releway-bold;
 }
