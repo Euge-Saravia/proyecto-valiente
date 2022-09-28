@@ -8,6 +8,8 @@
 import Image from "next/image";
 import styles from "./blockfooter.module.scss";
 import cx from "classnames";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faInstagramSquare, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function blockfooter() {
   return (
@@ -16,23 +18,17 @@ export default function blockfooter() {
       <hr></hr>
       <div className={styles.iconoscontacto}>
         <div className={styles.seguinosinstagram}>
-          <Image
-            src="/images/icono-instagram.png"
-            alt="Logo instagram"
-            width={42}
-            height={42}
-          />
-          <a href="https://www.instagram.com/estudiovaliente/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon className={styles.socialIcons} icon={faInstagram} size="2x" />
+          <a
+            href="https://www.instagram.com/estudiovaliente/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>SEGUINOS</span> EN INSTAGRAM
           </a>
         </div>
         <div className={styles.contactowhatsapp}>
-          <Image
-            src="/images/icono-wsp.png"
-            alt="Logo whatsapp"
-            width={42}
-            height={42}
-          />
+       <FontAwesomeIcon className={styles.socialIcons} icon={faWhatsapp} size="2x"/>
           <a href="https://wa.me/+5493416122792">
             <span>CONTACTANOS</span> POR WHATSAPP
           </a>

@@ -20,24 +20,24 @@ export default function BlockPresentation() {
           height={75}
         />
         <p className={styles.soyjulia}>
-          Desde chica, siempre me atrajo el arte en todas sus formas. Diseñar,
-          pintar, escribir, bailar, cantar...
-          <br></br>
-          Estudio Valiente es un sueño que transporté a la realidad.
+        Desde chica, siempre me atrajo el arte en todas sus formas. 
+        Estudio valiente es un sueño que transporté a la realidad. 
           <br></br>
           <br></br>
-          Cuando idee este proyecto lo vi completamente inviable, así que lo tome
-          como algo complementario a mis actividades cotidianas que habian
-          sido afectadas por la famosa pandemia.
+          Este proyecto nace 100% en pandemia. Lo cree como algo complementario a mi trabajo en relación de dependencia, 
+          empezó llenando mis momentos libres de inspiración y creatividad para sobrepasar 
+          los tiempos de cuarentena y aislamiento. 
           <br></br>
           <br></br>
-          Creo fuertemente que lo que creamos con entuciasmo y corazón, funciona
-          de manera orgánica y hermosa.Hoy este proyecto individual se tranformo
-          en un equipo de trabajo increible que cuenta con clientes felices y
-          agradecidos.
+          Creo fuertemente que todo lo que hacemos con entuciasmo y corazón, 
+          funciona de manera orgánica y hermosa. 
           <br></br>
           <br></br>
-          Realmente espero que este sea solo el comienzo.
+          Hoy este proyecto individual se tranformó en un equipo de trabajo increible 
+          que cuenta con clientes felices y agradecidos.  
+          <br></br>
+          <br></br>
+          Esto es solo el comienzo.
         </p>
       </div>
     </>

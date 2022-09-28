@@ -17,42 +17,27 @@ export default function Blockquienessomos() {
         <p className={styles.textquienessomos}>
           <strong>Bienvenidos a nuestro mundo!</strong>
           <br></br>
-          Nuestros clientes son desde profesionales hasta emprendedores, no
-          importa que tan grande o pequeño sea tu negocio, ahi estamos para
-          ayudarte a darle todo lo que necesite.
+          Nuestros clientes son desde profesionales hasta emprendedores, 
+          no importa que tan grande o pequeño sea tu negocio.
           <br></br>
           <br></br>
-          <strong>Todo lo que es imagen nos encanta! </strong>Sabemos que aparte de un buen
-          producto, necesitamos una buena presentación.
+          Nuestro trabajo es darte la estética que necesitas para que 
+          puedas salir al mercado <strong>de la mejor forma.</strong>
           <br></br>
           <br></br>
-          Nuestro trabajo es darte la estética que necesitas para que puedas
-          salir al mercado <strong>de la mejor forma.</strong>
+         <strong>Manejamos las redes acorde a tus necesidades. Te ayudamos a potenciar tu negocio, tu emprendimiento o tu servicio </strong>
+          para que llegue de manera efectiva a tus clientes.
           <br></br>
           <br></br>
-          No es nada nuevo decir que <strong>todo se mueve en las redes</strong> más rapido que
-          en la realidad... Pensar en redes sociales ya era importante, pero
-          <strong> ahora? Adaptarnos a la nueva realidad </strong>es asumir que nuestro mundo se
-          desempeña más en el ciberespacio que en cualquier otro ambito...
+          Para nosotros es muy importante <strong> escuchar tus necesidades,</strong> lo que querés o te imaginas 
+          para obtener el mejor de los resultados.
           <br></br>
           <br></br>
-          Por eso, que mejor que una buena publicidad gráfica online? <strong>Manejamos
-          las redes acorde a tus necesidades.</strong>
+          Va más allá del diseño que funciona, te damos una identidad para que la ames 
+          y te sientas <strong> 100% identificado</strong> con ella. 
           <br></br>
           <br></br>
-          <strong>Te ayudamos a potenciar tu negocio, tu emprendimiento o tu servicio </strong>
-          para que llegue de manera efectiva a tus clientes...
-          <br></br>
-          <br></br>
-          Para nosotros es muy importante escuchar las necesidades de nuestros
-          clientes, lo que quieren o se imaginan obteniendo el mejor de los
-          resultados. Va más allá del diseño que funciona, les da una identidad
-          que rápidamente aman y se apropian 100 % de ella, sintiéndose
-          identificados.
-          <br></br>
-          <br></br>
-          Porque ningún diseño es merito nuestro, lo hacemos en equipo y en
-          conjunto con cada cliente.
+          Porque ningún diseño es merito nuestro, <strong> lo hacemos en equipo y en conjunto con ustedes.</strong>
         </p>
       </div>
     </>
