@@ -12,13 +12,8 @@ export default function blockImgyFrase() {
   return (
     <>
       <div className={styles.imagecontainer}>
-        <p className={styles.frase}>
-          <strong>UNA IDEA</strong> PENSADA Y RE PENSADA, 
-          <br></br>
-          UNA Y MIL VECES.
-        </p>
         <Image
-          src="/images/fondogris-confoto.png"
+          src="/images/fondogris-confoto1.png"
           alt="Fondo gris con frase"
           width={8000}
           height={4500}
