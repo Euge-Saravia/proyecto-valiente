@@ -18,6 +18,7 @@ export default function blockimgcierre() {
           alt="Logo cliente"
           width={382}
           height={150}
+          layout="responsive"
         />
       </div>
     </>

@@ -11,27 +11,25 @@
     height: calc(100vh - 4rem);
     display: flex;
     align-items: flex-end;
-    // margin-top: 1rem;
   }
 
   .logovaliente {
     width: 14rem;
 
     @media screen and (min-width: $size-desktop) {
-      display: flex;
-      justify-content: center;
+      display: block;
+      margin: 6rem auto;
+      width: 60rem;
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       z-index: 1;
-      width: auto;
+
     }
   }
 
   .menuhamb {
-    // height: 63px;
-    // width: 86px;
     position: absolute;
     top: 1.75rem;
     left: 0;
@@ -103,14 +101,14 @@
       text-align: center;
       font-family: releway-extralight;
       height: 10rem;
-      font-size: 1.5625rem;
+      font-size: 2rem;
       justify-content: center;
       align-items: flex-end;
       padding-bottom: 4.21875rem;
     }
 
     &:hover {
-      height: 96%;
+      height: 92.5%;
       transition-duration: 2s;
     }
   }

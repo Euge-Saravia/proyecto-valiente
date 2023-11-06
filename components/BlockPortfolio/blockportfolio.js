@@ -18,35 +18,52 @@ export default function blockportfolio() {
           Estos son <span>algunos clientes </span>que confiaron en mi...
         </h3>
         <div className={styles.clientesimages}>
-          <Image
-            src="/images/cliente-1.png"
-            alt="Logo cliente"
-            width={260}
-            height={187}
-          />
-          <Image
-            src="/images/cliente-2.png"
-            alt="Logo cliente"
-            width={260}
-            height={187}
-          />
-          <Image
-            src="/images/cliente-3.png"
-            alt="Logo cliente"
-            width={260}
-            height={187}
-          />
-          <Image
-            src="/images/cliente-4.png"
-            alt="Logo cliente"
-            width={260}
-            height={187}
-          />
-          <p>Agradecemos a cada uno de nuestros clientes, por poner en nuestra manos la identidad
-            de su marca y por hacernos saber que están super conformes con nuestro trabajo. Les 
-            dejamos algunos mensajes que nos llenan el corazón y nos impulsan a seguir creciendo.
-          </p>
+          <div className={styles.clientesimagewrapper}>
+            <Image
+              src="/images/cliente-1.png"
+              alt="Logo cliente"
+              width={260}
+              height={187}
+              layout="responsive"
+            />
+          </div>
+          <div className={styles.clientesimagewrapper}>
+            <Image
+              src="/images/cliente-2.png"
+              alt="Logo cliente"
+              width={260}
+              height={187}
+              layout="responsive"
+              className={styles.clientesimage}
+            />
+          </div>
+          <div className={styles.clientesimagewrapper}>
+            <Image
+              src="/images/cliente-3.png"
+              alt="Logo cliente"
+              width={260}
+              height={187}
+              layout="responsive"
+              className={styles.clientesimage}
+            />
+          </div>
+          <div className={styles.clientesimagewrapper}>
+            <Image
+              src="/images/cliente-4.png"
+              alt="Logo cliente"
+              width={260}
+              height={187}
+              layout="responsive"
+              className={styles.clientesimage}
+            />
+          </div>
         </div>
+        <p>
+          Agradecemos a cada uno de nuestros clientes, por poner en nuestra
+          manos la identidad de su marca y por hacernos saber que están super
+          conformes con nuestro trabajo. Les dejamos algunos mensajes que nos
+          llenan el corazón y nos impulsan a seguir creciendo.
+        </p>
       </div>
     </>
   );

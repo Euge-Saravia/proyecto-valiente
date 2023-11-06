@@ -41,6 +41,7 @@ export default function blockfooter() {
             alt="Logo Estudio Valiente"
             width={130}
             height={48}
+            layout="responsive"
           />
         </div>
       </div>

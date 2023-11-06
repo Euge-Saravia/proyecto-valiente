@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 
 import Header from "../components/header/header";
-import BlockImg from "../components/BlockImg/BlockImg";
 import BlockPresentation from "../components/blockPresentation/blockPresentation";
 import BlockImgyFrase from "../components/blockImgyFrase/blockImgyFrase";
 import Blockquienessomos from "../components/Blockquienessomos/blockquienessomos";
@@ -25,14 +24,13 @@ export default function Home() {
           src="/images/barra-encabezado.png"
           alt="Linea decorativa"
           width={414}
-          height={50}
+          height={20}
           layout="responsive"
           className={styles.image}
         />
       </div>
       <div className={styles.container}>
         <Header />
-        <BlockImg />
         <BlockPresentation />
         <BlockImgyFrase />
         <Blockquienessomos />

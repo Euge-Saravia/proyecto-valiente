@@ -5,12 +5,20 @@
     font-family: abril-fatface;
     font-size: 2rem;
     margin-bottom: 1rem;
+
+    @media screen and (min-width: $size-desktop) {
+        font-size: 3rem;
+    }
 }
 
 .iconoscontacto {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    @media screen and (min-width: $size-desktop) {
+        margin: 2rem 0;
+    }
 
     a {
         border: none;
@@ -19,13 +27,21 @@
         font-size: 0.5rem;
         padding: 0.5rem;
 
+        @media screen and (min-width: $size-desktop) {
+            font-size: 1rem;
+        }
+
         span {
             font-weight: 900;
         }
     }
 
-    .socialIcons{
+    .socialIcons {
         margin-bottom: 1rem;
+
+        @media screen and (min-width: $size-desktop) {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -47,9 +63,13 @@
     background-image: url("/images/barra-pie-de-pagina.png");
 
     .logovalientewhite {
-        display: flex;
-        justify-content: center;
+        width: 50%;
+        margin: auto;
         padding: 0.8rem 1.625rem;
+
+        @media screen and (min-width: $size-desktop) {
+            width: 20%;
+        }
 
         img {
             padding: 0.8rem 1.625rem !important;

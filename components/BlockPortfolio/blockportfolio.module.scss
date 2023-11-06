@@ -1,32 +1,63 @@
 @import "../../styles/variables";
 
-.titleportfolio{
+.titleportfolio {
     text-align: center;
     font-family: abril-fatface;
     font-size: 1.5rem;
+
+    @media screen and (min-width: $size-desktop) {
+        font-size: 3rem;
+    }
 }
 
-.containerportfolio{
+.containerportfolio {
     background-color: $color-second;
-    h3{
+
+    @media screen and (min-width: $size-desktop) {
+        width: 80%;
+        margin: auto;
+    }
+
+    h3 {
         padding-top: 1rem;
         font-size: 1.1rem;
         font-family: raleway-light;
         text-align: center;
 
-        span{
+        @media screen and (min-width: $size-desktop) {
+            font-size: 2rem;
+        }
+
+        span {
             font-family: assinatura;
+
+            @media screen and (min-width: $size-desktop) {
+                font-size: 2.5rem;
+            }
         }
     }
-    p{
-        padding: 0 0.5rem 0 1rem;
+
+    p {
+        padding: 0 2rem 1rem 2rem;
+        text-align: justify;
+        font-size: 1.5rem;
     }
 }
 
-.clientesimages{
+.clientesimages {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    @media screen and (min-width: $size-desktop) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
+.clientesimagewrapper {
+    flex-basis: content;
 
+    @media screen and (min-width: $size-desktop) {
+        flex-basis: 50%;
+    }
+}
