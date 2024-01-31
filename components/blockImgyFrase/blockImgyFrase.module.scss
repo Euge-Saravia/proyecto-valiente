@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.imagecontainer {
+    position: relative;
+
+    @media screen and (min-width: $size-desktop) {
+        width: 70%;
+        margin: auto;
+    }
+}

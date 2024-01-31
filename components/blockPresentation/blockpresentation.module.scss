@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.containerPresentacion {
+    @media screen and (min-width: $size-desktop) {
+        display: flex;
+        margin: 3rem 0;
+    }
+
+    .blockImg {
+        @media screen and (min-width: $size-desktop) {
+            width: 100%;
+        }
+    }
+
+    .textcontainer {
+        .tituloSoyJulia {
+            width: 60%;
+            margin: auto;
+            padding: 0.5rem 0;
+
+            @media screen and (min-width: $size-desktop) {
+                width: 50%;
+                margin: auto;
+            }
+        }
+
+        text-align: center;
+
+        .imagetitle {
+            margin-top: 0.3rem;
+            width: 50%;
+            height: 50%;
+        }
+
+        .soyjulia {
+            margin-top: 0;
+            font-family: raleway-light;
+            font-size: 1rem;
+
+            @media screen and (min-width: $size-desktop) {
+                margin-top: 0;
+                font-family: raleway-light;
+                font-size: 1.8rem;
+                text-align: left;
+                margin-left: 2rem;
+            }
+        }
+    }
+}

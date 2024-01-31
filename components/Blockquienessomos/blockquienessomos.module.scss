@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+.titlequienessomos {
+    text-align: center;
+    font-family: abril-fatface;
+    font-size: 1.5rem;
+}
+
+.contentquienessomos {
+    background-color: $color-first;
+
+    .textquienessomos {
+        font-family: raleway-light;
+        margin-top: 1rem;
+        font-size: 0.75rem;
+        text-align: justify;
+        column-count: 2;
+        column-gap: 1.5rem;
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (min-width: $size-desktop) {
+    .titlequienessomos {
+        font-size: 3rem;
+    }
+
+    .contentquienessomos {
+        @media screen and (min-width: $size-desktop) {
+            width: 80%;
+            margin: auto;
+        }
+
+        .textquienessomos {
+            column-gap: 4rem;
+            font-size: 1.2rem;
+            padding: 2.5rem 1.5rem;
+
+            @media screen and (min-width: $size-desktop) {
+                font-size: 1.6rem;
+                padding: 3.5rem 2.5rem;
+                column-gap: 5rem;
+            }
+        }
+    }
+
+}
